@@ -7,7 +7,7 @@ services:
         volumes:
             - .:/home/jovyan
     postgres:
-        image: postgres 
+        build: docker/postgres 
         volumes:
             - postgres_data:/var/lib/postgresql/data
 volumes:
