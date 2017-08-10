@@ -1,18 +1,12 @@
-# Kaleo Data Science Assesment
+# Semantic Search
 
-Welcome! We're excited to see what you can do with your computer, some data, and an open ended question! (Maybe some coffee too, if you're like us...)
-
-Our goal here is threefold:
-
-1. We want to assess your potential as a rockstar data scientist and engineer
-2. We want you to have fun! Think of this as an example of something you might need to work on one day. 
-3. We want to know that you can function at the command line and with GitHub.
+The goal here is threefold:
 
 ## The Task
 
 The task has three parts -- data collection, data exploration / algorithm development, then finally predictive modeling. 
 
-**Feel free to develop in any mainstream language that you deem appropriate for this problem.**
+![](http://interactive.blockdiag.com/image?compression=deflate&encoding=base64&src=eJxdjrsOwjAMRXe-wlsmRhaQkDoiMSDxBW5slahtHDmGCiH-nfQxtKy-59zruhPfUsAGPjsA56XvMdIRSIbYCZKD_RncENqQuGBQ3S7TidCwxsynjZUZ1T8m4HqvJlXZnhrBJMHBbWlTDHEeSFravYUXQy_E3TKrwbioMKb5z16UmRxfXZurVY_GjegbhqJIjaXm-wNmzE4W)
 
 ### Part 1 -- Collection
 
