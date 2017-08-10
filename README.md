@@ -20,14 +20,14 @@ The results of the query should be written to PostgreSQL tables, `page` and `cat
 **optional**  
 Make it so that your code can be run via a python script e.g.
 
-```python
+```bash
 $ docker run -v `pwd`:/src python -m download #SOME_CATEGORY#
 ```
 
 **optional**  
 Make it so that your code can query nested sub-categories e.g.
 
-```python
+```bash
 $ docker run -v `pwd`:/src python -m download #SOME_CATEGORY# #NESTING_LEVEL#
 ```
 
@@ -38,7 +38,7 @@ Use Latent Semantic Analysis to search your pages. Given a search query, find th
 **optional**  
 Make it so that your code can be run via a python script e.g.
 
-```python
+```bash
 $ docker run -v `pwd`:/src python -m search #SOME_TERM#
 
 ### Part 3 -- Predictive Model
@@ -48,7 +48,7 @@ In this part, we want you to build a predictive model from the data you've just 
 **optional**  
 Make it so that your code can be run via a python script e.g.
 
-```python
+```bash
 $ docker run -v `pwd`:/src python -m train
 ```
 
@@ -57,7 +57,7 @@ Finally, you should be able to pass the url of a wikipedia page and it will gene
 **optional**  
 Make it so that your code can be run via a python script e.g.
 
-```python
+```bash
 $ docker run -v `pwd`:/src python -m predict #URL#
 ```
 
