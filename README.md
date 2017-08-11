@@ -40,6 +40,7 @@ Make it so that your code can be run via a python script e.g.
 
 ```bash
 $ docker run -v `pwd`:/src python -m search #SOME_TERM#
+```
 
 ### Part 3 -- Predictive Model
 
