@@ -1,3 +1,4 @@
 CREATE TABLE wiki_stuff (
-    id INTEGER
+    id INTEGER,
+    title TEXT
 );
