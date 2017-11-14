@@ -3,9 +3,12 @@
 ## The Task
 The objective of this assignment is to engineer a novel wikipedia search engine using what you've learned about data collection, infrastructure, and natural language processing.
 
-The task has two **required sections:** data collection and algorithm development
+The task has two **required sections:**
+- Data collection
+- Search algorithm development
 
-and one **optional section:** predictive modeling
+And one **optional section:** 
+  - Predictive modeling
 
 ![](http://interactive.blockdiag.com/image?compression=deflate&encoding=base64&src=eJxdjrsOwjAMRXe-wlsmRhaQkDoiMSDxBW5slahtHDmGCiH-nfQxtKy-59zruhPfUsAGPjsA56XvMdIRSIbYCZKD_RncENqQuGBQ3S7TidCwxsynjZUZ1T8m4HqvJlXZnhrBJMHBbWlTDHEeSFravYUXQy_E3TKrwbioMKb5z16UmRxfXZurVY_GjegbhqJIjaXm-wNmzE4W)
 
