@@ -19,9 +19,9 @@ We want you to query the wikipedia API and **collect all of the articles** under
 * [Machine Learning](https://en.wikipedia.org/wiki/Category:Machine_learning)
 * [Business Software](https://en.wikipedia.org/wiki/Category:Business_software)
 
-We want your code to be modular enough that any valid category from Wikipedia can be queried by your code.
-
 The raw page text and the category should be written to a collection on a Mongo server running on an AWS instance.
+
+We want your code to be modular enough that any valid category from Wikipedia can be queried by your code. You are encouraged to pull additional wikipedia categories beyond ML and Business Software. The more data the better. 
 
 **Note:** Both "Machine Learning" and "Business Software" contain a heirarchy of nested sub-categories. Make sure that you pull every single page within each parent category, not just those directly beneath them. Take time to explore wikipedia's organization structure. It is up to you if you want to model this heirarchy anywhere within Mongo, otherwise flatten it to just record parent category.
 
@@ -42,7 +42,7 @@ $ docker run --rm -v $(pwd):/home/jovyan jupyter/scipy-notebook python download.
 
 ### Part 2 -- Search (required)
 
-Use Latent Semantic Analysis to search your pages. Given a search query, find the top 5 related articles to the search query. SVD and cosine similarity are are probably a good place to start. 
+Use Latent Semantic Analysis to search your pages. Given a search query, find the top 5 related articles to the search query. SVD and cosine similarity are a good place to start. 
 
 **optional**  
 Make it so that your code can be run via a python script e.g.
