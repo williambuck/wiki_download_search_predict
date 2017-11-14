@@ -19,11 +19,11 @@ We want you to query the wikipedia API and **collect all of the articles** under
 * [Machine Learning](https://en.wikipedia.org/wiki/Category:Machine_learning)
 * [Business Software](https://en.wikipedia.org/wiki/Category:Business_software)
 
-The raw page text and the category should be written to a collection on a Mongo server running on an AWS instance.
+The raw page text and its category information should be written to a collection on a Mongo server running on a dedicated AWS instance.
 
-We want your code to be modular enough that any valid category from Wikipedia can be queried by your code. You are encouraged to pull additional wikipedia categories beyond ML and Business Software. The more data the better. 
+We want your code to be modular enough that any valid category from Wikipedia can be queried by your code. You are encouraged to exploit this modularity to pull additional wikipedia categories beyond ML and Business Software. As always, the more data the better. 
 
-**Note:** Both "Machine Learning" and "Business Software" contain a heirarchy of nested sub-categories. Make sure that you pull every single page within each parent category, not just those directly beneath them. Take time to explore wikipedia's organization structure. It is up to you if you want to model this heirarchy anywhere within Mongo, otherwise flatten it to just record parent category.
+**Note:** Both "Machine Learning" and "Business Software" contain a heirarchy of nested sub-categories. Make sure that you pull every single page within each parent category, not just those directly beneath them. Take time to explore wikipedia's organization structure. It is up to you if you want to model this heirarchy anywhere within Mongo, otherwise flatten it by only recording the parent category associated with each page.
 
 **optional**  
 Make it so that your code can be run via a python script e.g.
