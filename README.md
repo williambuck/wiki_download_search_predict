@@ -71,6 +71,6 @@ $ docker run --rm -v $(pwd):/home/jovyan jupyter/scipy-notebook python predict.p
 
 ## Infrastructure
 
-We recommend that you run a MongDB server on an t2.micro instance. Feel free to run your Jupyter environment either on another instance or locally.
+We recommend that you run a MongDB server on a dedicated t2.micro instance. Feel free to run your Jupyter environment either on another instance or locally.
 
 
