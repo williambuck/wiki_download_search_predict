@@ -1,5 +1,31 @@
 # Semantic Search
 
+## Summary
+
+The original prompt for this project is included after the section entitled "The Task". Below, I have detailed what the three .py files do with regards to the Wikipedia data.
+
+**You can see a demonstration of each of this scripts in the Project_4-Final_Notebook_download-search-predict.ipynb file**
+
+### download.py, search.py, and predict.py
+
+The three .py files that are run in this notebook will do the following:
+1. download.py will download all of the page text, pageids, and titles from pages from a certain category.
+    - This information is stored in a mongoDB set up on an AWS instance. The client connection is set in all three of the scripts as ```MongoClient('35.163.182.105', 27016)```
+    - The way I have organized the data in mongo: 
+        - Each category that is downloaded has its own database in mongo. 
+        - Each collection is a subcategory of the orginally downloaded category.
+        - Each document in a collection is a page that falls under the category in Wikipedia.
+1. Search for any word or phrase in the contents of the downloaded Wikipedia pages.
+    - When search.py is first run, it will merge all of the information in the mongo databases so that they can be searched.
+1. Predict the category of a page from the wikipdia page title.
+    - predict.py analyzes all of the page content related to a certain category, and when a page title is passed to the ```predict``` method, it uses the Wikipedia API to get all of the page text of the passed title, then predicts the category of the page based on that content.
+    - The downloaded data must be stored in a pandas DataFrame in order for categorical predictions to be made.
+
+
+
+
+-----------------------
+
 ## The Task
 The objective of this assignment is to engineer a novel wikipedia search engine using what you've learned about data collection, infrastructure, and natural language processing.
 
