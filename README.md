@@ -9,7 +9,7 @@ The original prompt for this project is included after the section entitled "The
 ### download.py, search.py, and predict.py
 
 The three .py files that are run in this notebook will do the following:
-1. download.py will download all of the page text, pageids, and titles from pages from a certain category.
+1. Download all of the page text, pageids, and titles from pages from a certain category.
     - This information is stored in a mongoDB set up on an AWS instance. The client connection is set in all three of the scripts as ```MongoClient('35.163.182.105', 27016)```
     - The way I have organized the data in mongo: 
         - Each category that is downloaded has its own database in mongo. 
