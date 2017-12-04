@@ -2,7 +2,7 @@
 
 ## You can see a demonstration of each of the scripts detailed below in the Project_4-Final_Notebook.ipynb file
 
-### Summary o fdownload.py, search.py, and predict.py
+### Summary of download.py, search.py, and predict.py
 
 The three .py files that are included in this repository will do the following:
 1. Download all of the page text, pageids, and titles from pages from a certain category.
@@ -26,8 +26,6 @@ The task has three sections:
 1. Data collection
 1. Search algorithm development
 1. Predictive modeling
-
-![](http://interactive.blockdiag.com/image?compression=deflate&encoding=base64&src=eJxdjrsOwjAMRXe-wlsmRhaQkDoiMSDxBW5slahtHDmGCiH-nfQxtKy-59zruhPfUsAGPjsA56XvMdIRSIbYCZKD_RncENqQuGBQ3S7TidCwxsynjZUZ1T8m4HqvJlXZnhrBJMHBbWlTDHEeSFravYUXQy_E3TKrwbioMKb5z16UmRxfXZurVY_GjegbhqJIjaXm-wNmzE4W)
 
 ### Part 1 -- Collection 
 
