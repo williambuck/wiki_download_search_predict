@@ -1,12 +1,8 @@
 # Semantic Search
 
-## Summary
+## You can see a demonstration of each of the scripts detailed below in the Project_4-Final_Notebook.ipynb file
 
-The original prompt for this project is included after the section entitled "The Task". Below, I have detailed what the three .py files do with regards to the Wikipedia data.
-
-**You can see a demonstration of each of this scripts in the Project_4-Final_Notebook.ipynb file**
-
-### download.py, search.py, and predict.py
+### Summary o fdownload.py, search.py, and predict.py
 
 The three .py files that are included in this repository will do the following:
 1. Download all of the page text, pageids, and titles from pages from a certain category.
@@ -21,12 +17,10 @@ The three .py files that are included in this repository will do the following:
     - predict.py analyzes all of the page content related to a certain category, and when a page title is searched, it uses the Wikipedia API to get all of the page text of the passed title, then predicts the category of the page based on that content.
     - The downloaded data must be stored in a pandas DataFrame in order for categorical predictions to be made.
 
-
-
 -----------------------
 
 ## The Task
-The objective of this project is to engineer a novel wikipedia search engine using NLP.
+The objective of this project was to engineer a novel wikipedia search engine using NLP.
 
 The task has three sections:
 1. Data collection
@@ -44,7 +38,7 @@ Using the download.py file, I started by querying the Wikipedia API and collecti
 
 The raw page text and its category information is written to a collection on a Mongo server running on a dedicated AWS instance.
 
-We want your code to be modular enough that any valid category from Wikipedia can be queried by your code. You are encouraged to exploit this modularity to pull additional wikipedia categories beyond ML and Business Software. As always, the more data the better. 
+The code is modular enough that any valid category from Wikipedia can be queried by the download.py script.
 
 **Note:** Both "Machine Learning" and "Business Software" contain a heirarchy of nested sub-categories. I pulled every single page within each parent category, not just those directly beneath them, by specifying a nesting_level greater than 1. Depending on what the additional categories I downloaded where like in terms of quantity of subcategories, I would change the nesting level to be between 0-5.
 
