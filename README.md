@@ -1,9 +1,9 @@
 # Wikipedia Semantic Search
 
-## You can see a demonstration of each of the scripts detailed below in the Project_4-Final_Notebook.ipynb file
+## You can see a demonstration of each of the scripts detailed below in the Download_Search_Predict_Demo.ipynb file
 
 ### Summary of download.py, search.py, and predict.py files
-The three .py files that are run in this repository will do the following, demonstrated in three parts of the included ipynb notebook:
+The three .py files that are run in this repository will do the following, demonstrated in three parts of the included .ipynb notebook:
 
 **PART 1:** 
 - Download all of the page text, pageids, and titles from pages from a certain category.
